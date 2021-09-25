@@ -151,7 +151,9 @@
                               document.getElementById("result").innerHTML= "Answer is wrong";
                               if(login_attempts==0)
                                 {
+
                                   alert("No Login Attempts is Available");
+
                                 }
                               else
                                 {
