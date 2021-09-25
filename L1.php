@@ -8,8 +8,7 @@
 </head>
 <body>
 <h1>Swalpa Kadme Hodko</h1>
-  hi 
-  h
+ 
    <button type="submit"><a href="q2.php">Next  </a> </button>
 </body>
 </html>
