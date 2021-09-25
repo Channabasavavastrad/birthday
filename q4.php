@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,13 +118,13 @@
 <body>
     <div class="container mt-sm-5 my-1">
         <div class="question ml-sm-5 pl-sm-5 pt-2">
-            <div class="py-2 h5"><b>Q. Which is your Favorite thing to do?</b></div>
+            <div class="py-2 h5"><b>Q. which is your favourite place?</b></div>
             <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
-                <label class="options">Sleeping <input type="radio" name="radio"  value="Sleeping"> 
+                <label class="options">Home <input type="radio" name="radio"  value="Home"> 
                     <span class="checkmark"></span> </label>
-                     <label class="options">Watching series <input type="radio" name="radio"  value="Reading"> 
+                     <label class="options">Hostel <input type="radio" name="radio"  value="Hostel"> 
                         <span class="checkmark"></span> </label> 
-                        <label class="options">Masturbating <input type="radio" name="radio"  value="Masturbating"> 
+                        <label class="options">Rash heart<input type="radio" name="radio"  value="Rash heart"> 
                             <span class="checkmark"></span> </label> 
                         </div>
           
@@ -138,15 +137,14 @@
 
     <div id="result"></div>
     <script>
-        var login_attempts=2;
-        var arr = [];
+        var login_attempts=3;
         function validate() {
             var ele = document.getElementsByName('radio');           
             for(i = 0; i < ele.length; i++) {
                 if(ele[i].checked){
                     
-                        if(ele[i].value == "Masturbating" && login_attempts>0)
-                        location.replace("./L1")
+                        if(ele[i].value == "Rash heart" && login_attempts>0)
+                        location.replace("./L4")
                         else{
                               document.getElementById("result").innerHTML= "Answer is wrong";
                               if(login_attempts==0)
@@ -161,10 +159,8 @@
                                    {
                                     //  document.getElementByName("radio").disabled=true;
                                     //  setTimeout(greet, 2000);
-                                    alert("You lost all attempts");
-                                    location.replace("./Lastpage");
-                                    arr.push("pari")
-                                    localStorage.setItem("key", JSON.stringify(arr));                    
+                                    alert("you lost a persons letter");
+                                    location.replace("./q5");
                                    }
                                 }
                            }
