@@ -130,7 +130,7 @@
           
         </div>
         <div class="d-flex align-items-center pt-3">
-            <div id="prev"> <button class="btn btn-primary">Previous</button> </div>
+            <!-- <div id="prev"> <button class="btn btn-primary">Previous</button> </div> -->
             <div class="ml-auto mr-sm-5"> <button class="btn btn-success" onclick="validate()">Next</button> </div>
         </div>
     </div>
@@ -144,7 +144,7 @@
                 if(ele[i].checked){
                     
                         if(ele[i].value == "Denga" && login_attempts>0)
-                        location.replace("./L5")
+                        location.replace("L5.php")
                         else{
                               document.getElementById("result").innerHTML= "Answer is wrong";
                               if(login_attempts==0)
@@ -160,7 +160,7 @@
                                     //  document.getElementByName("radio").disabled=true;
                                     //  setTimeout(greet, 2000);
                                     alert("you lost a persons letter");
-                                    location.replace("./q6");
+                                    location.replace("q6.php");
                                    }
                                 }
                            }

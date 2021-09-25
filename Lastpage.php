@@ -8,10 +8,5 @@
 </head>
 
     <h1>Thanks for using our website!!!!!!!!!!!!!!</h1>
-    <div id="myText"></div>
-<script >
-    var retrievedData = localStorage.getItem("quentinTarantino");
-    document.getElementById("myText").innerHTML = retrievedData;
 
-</script>
 </html>

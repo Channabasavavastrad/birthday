@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Bele ne illa namegella(Egg rice annange jai!!!!! )</h1>
-    <button type="submit"><a href="./Lastpage.html">Next  </a> </button>
+    <button type="submit"><a href="Lastpage.php">Next  </a> </button>
 </body>
 </html>

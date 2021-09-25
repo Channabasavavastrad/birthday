@@ -8,6 +8,6 @@
 </head>
 <body>
   <h1>HEYYYYYY KALLAAAAAAAAA</h1>
-    <button type="submit"><a href="./q5.html">Next  </a> </button>
+    <button type="submit"><a href="q5.php">Next  </a> </button>
 </body>
 </html>

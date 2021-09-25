@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Gudda madkond tinnod kadme madu louda</h1>
-    <button type="submit"><a href="./q4.html">Next  </a> </button>
+    <button type="submit"><a href="q4.php">Next  </a> </button>
 </body>
 </html>

@@ -9,6 +9,6 @@
 <body>
 <h1>Swalpa Kadme Hodko</h1>
   
-   <button type="submit"><a href="./q2.html">Next  </a> </button>
+   <button type="submit"><a href="q2.php">Next  </a> </button>
 </body>
 </html>

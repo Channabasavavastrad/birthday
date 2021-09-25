@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Thanks For selecting inner feeling</h1>
-    <button type="submit"><a href="./q6.html">Next  </a> </button>
+    <button type="submit"><a href="q6.php">Next  </a> </button>
 </body>
 </html>
