@@ -90,7 +90,7 @@ margin-top: 3.5cm;
              var pass=document.getElementById("pass").value;
              if(name=="toor" && pass=="toor")
              {
-                location.replace("q1")
+                location.replace("q1.php")
               document.getElementById("name").value="toor";
               document.getElementById("pass").value="toor";
              }
