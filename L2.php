@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>BADUKONDE</h1>
-    hi everyone
+  
     <button type="submit"><a href="q3.php">Next  </a> </button>
 </body>
 </html>
